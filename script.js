@@ -10,7 +10,8 @@ form.addEventListener('submit',(e)=>{
     const l1 = (boy.value.length);
         const l2 = (girl.value.length);
         const calculate =(l1*l2)+20;
-    result.textContent=`${calculate}%`;
+    result.textContent=`Result : ${calculate}%`;
     form.reset();
+
 
 });
